@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyBdmMoG0U7zsS8mfyKSwsYzhRD2V8IrGEU",
+  authDomain: "projetofm-243ca.firebaseapp.com",
+  databaseURL: "https://projetofm-243ca-default-rtdb.firebaseio.com",
+  projectId: "projetofm-243ca",
+  storageBucket: "projetofm-243ca.appspot.com",
+  messagingSenderId: "257108551022",
+  appId: "1:257108551022:web:85cc6438c4a0b794690d7f"
+};
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
